@@ -1,0 +1,29 @@
+{
+  "name": "prorroga-scraper",
+  "version": "1.0.0",
+  "description": "Web scraper app on http://sodoc.embaven.cl/consultaprorroga",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc && node ./dist/index.js",
+    "dev:ts": "tsc --watch",
+    "dev:js": "nodemon ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ragonzalezm19/prorroga-scraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ragonzalezm19/prorroga-scraper/issues"
+  },
+  "homepage": "https://github.com/ragonzalezm19/prorroga-scraper#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.14",
+    "playwright": "^1.16.2"
+  },
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
