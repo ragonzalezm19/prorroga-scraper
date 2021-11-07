@@ -4,7 +4,8 @@
   "description": "Web scraper app on http://sodoc.embaven.cl/consultaprorroga",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && node ./dist/index.js",
+    "start": "tsc && npm run copy-files && node ./dist/index.js",
+    "copy-files": "cp ./.env ./dist",
     "dev:ts": "tsc --watch",
     "dev:js": "nodemon ./dist/index.js"
   },
@@ -24,6 +25,8 @@
     "playwright": "^1.16.2"
   },
   "dependencies": {
-    "moment": "^2.29.1"
+    "dotenv": "^10.0.0",
+    "moment": "^2.29.1",
+    "telegraf": "^4.4.2"
   }
 }
