@@ -4,7 +4,7 @@ import { ScraperResponse } from './ScraperResponse';
 
 const URL_PRORROGA = 'http://sodoc.embaven.cl/consultaprorroga';
 const NOT_PRORROGA_MESSAGE =
-  'Su prórroga aún no esta disponible para ser retirada en ésta misión diplomática. Consulte la próxima semana';
+  'su prórroga o pasaporte aún no esta disponible para ser retirado en ésta misión diplomática. consulte la próxima semana';
 
 export class Scraper {
   public static async scrape(): Promise<ScraperResponse> {

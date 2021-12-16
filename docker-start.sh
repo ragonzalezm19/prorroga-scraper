@@ -1,0 +1,1 @@
+docker build -t prorroga-scraper . && docker run -t -i prorroga-scraper

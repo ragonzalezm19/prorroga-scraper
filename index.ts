@@ -14,6 +14,9 @@ const main = async () => {
   } else {
     notification.notifyNotUpdate({ image: response.image });
   }
+
+  const date = new Date();
+  console.log(`${date.toISOString()} - Proceso terminado.`);
 };
 
 main();

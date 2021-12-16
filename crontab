@@ -1,0 +1,1 @@
+30 18 * * * node /bin/app/dist/index.js >> /var/log/cron.log 2>&1
